@@ -9,9 +9,9 @@ public class HelloApp {
                 names.append(name).append(", ");
             }
 
-            names.setLength(names.length() - 2);
+            String result = names.substring(0, names.length() - 2);
 
-            System.out.println("Hello, " + names + "!");
+            System.out.println("Hello, " + result + "!");
         }
     }
 }
